@@ -6,8 +6,8 @@ private:
 	int* arr;
 	int panjang;
 public:
-	angka(int);
-	~angka();
+	angka(int); //constructor
+	~angka();	//destrucor
 	void cetakData();
 	void isiData();
 };
